@@ -1,4 +1,4 @@
-""" Simple function to reset user password using basic Django forms. This example does not include the front-end. """
+""" Simple function to change user password using basic Django forms. This example does not include the front-end. """
 
 from django.shortcuts import render, redirect
 

@@ -1,7 +1,4 @@
-# POO TUTORIAL
-
-
-class Person: 
+class Person:
 
     def __init__(self, name: str, age: int):
         self.name = name
@@ -9,23 +6,20 @@ class Person:
 
         if self.name == '':
             self.AskName()
-        
+
         if self.age == 0:
             self.AskAge()
 
             if self.age <= 0:
-                print("Age invalide")
+                print("Age invalid")
                 self.AskAge()
-
 
     def AskName(self):
         self.name = input("What is your name : ")
 
-
     def AskAge(self):
         result = input("What is your age : ")
         self.age = int(result)
-
 
     def Presentation(self):
         print(f"Hi, my name is {self.name}, i have {self.age} years old.")
@@ -35,7 +29,6 @@ class Person:
         else:
             print("I need more time before became adults :( ")
 
-
     def Adults(self):
         majority = int(18)
 
@@ -43,7 +36,3 @@ class Person:
             return True
         else:
             return False
-
-
-person1 = Person('', 0)
-person1.Presentation()

@@ -72,3 +72,25 @@ for items in lst1:
     lst2.append(type(items))
 
 print(lst2)
+
+
+# Print First 10 natural numbers using while loop
+i = 0
+while i <= 10:
+    i += 1
+    print(i)
+
+
+# Write a program to print the following number pattern using a loop.
+row = 5
+for i in range(1, row + 1, 1):
+    for j in range(1, i + 1):
+        print(j, end=' ')
+    print('')
+
+
+# Write a program to print multiplication table of a given number
+n = int(input("Enter number : "))
+for i in range(1, 10 + 1):
+    r = i * n
+    print(r)

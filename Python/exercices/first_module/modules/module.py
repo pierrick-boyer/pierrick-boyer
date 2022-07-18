@@ -1,4 +1,4 @@
-# https://edube.org/learn/
+# Understand how modules & imports work
 
 __counter = 0
 

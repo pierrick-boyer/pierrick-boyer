@@ -1,7 +1,7 @@
 # import sys
 
 from sys import path
-from Python.exercices.first_module.modules import module
+from Python.exercise.first_module.modules import module
 
 
 # for p in sys.path:
